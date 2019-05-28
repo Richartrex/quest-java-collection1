@@ -10,6 +10,10 @@ public class Hero {
         this.age = age;
     }
 
+    public String toString() {
+        return name + " " + age;
+    }
+
     // accesseurs (getters)
     public String getName() {
         return name;
